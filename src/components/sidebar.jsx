@@ -11,18 +11,18 @@ class Sidebar extends Component {
                 <Fragment>
                     <SideNav>
                         <Toggle/>
-                        <Nav defaultSelected="intro">
-                            <NavItem eventKey="intro">
+                        <Nav>
+                            <NavItem>
                                 <NavText>
                                     Home
                                 </NavText>
                             </NavItem>
-                            <NavItem eventKey="about">
+                            <NavItem>
                                 <NavText>
                                     About
                                 </NavText>
                             </NavItem>
-                            <NavItem eventKey="projects">
+                            <NavItem>
                                 <NavText>
                                     Projects
                                 </NavText>
